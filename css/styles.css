@@ -1,0 +1,131 @@
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size : 20px;
+  text-align : center;
+  color : hsl(209, 33%, 12%);
+  font-weight : 300;
+  line-height : 1.5;
+
+}
+
+.section {
+  margin : 100px auto;
+
+}
+
+
+h1{
+  color : hsl(0, 0%, 59%);
+  font-weight : 300;
+}
+
+.soon{
+  color : hsl(209, 33%, 12%);
+  font-weight : 700;
+}
+
+
+.wide-line {
+  line-height : 2;
+}
+
+.email {
+  padding-top : 20px;
+}
+.email-input{
+
+  border-radius:35px;
+  border-color : hsl(0, 0%, 59%);
+  border-width : 1px;
+  border-style : solid;
+  width:350px;
+  height : 40px;
+  font-weight : 300;
+  font-size : 14px;
+  padding : 0;
+  margin : 0;
+  opacity : 50%;
+  padding-left : 20px;
+  padding-top : 5px;
+  padding-bottom : 5px;
+}
+.btn{
+margin: auto 10px auto 10px;
+  border-radius:35px;
+  border-color : hsl(223, 87%, 63%);
+  border-width : 1px;
+  border-style : solid;
+  width:220px;
+  height : 40px;
+  background-color : hsl(223, 87%, 63%);
+  font-weight : 600;
+  font-size : 14px;
+  text-align : center;
+  padding-left : 40px;
+  padding-right : 40px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  color: white;
+  box-shadow: 2px 6px 10px hsl(0, 0%, 59%);
+}
+
+.img-dashboard{
+  padding-top : 70px;
+  width : 60%;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.social{
+  padding : 50px;
+}
+
+.social-wrap{
+  position: relative;
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-width:1px;
+  border-style:solid;
+  border-radius:50%;
+  border-color: hsl(0, 0%, 59%);
+  margin : auto 10px auto 10px;
+}
+.social-icon{
+  color: hsl(223, 87%, 63%);
+  width: 90%;
+  height: auto;
+  margin:auto;
+
+}
+
+.copyright{
+  font-size :14px;
+  color : hsl(0, 0%, 59%);
+}
+/*
+### Primary
+
+- Blue: hsl(223, 87%, 63%)
+
+### Secondary
+
+- Pale Blue: hsl(223, 100%, 88%)
+- Light Red: hsl(354, 100%, 66%)
+
+### Neutral
+
+- Gray: hsl(0, 0%, 59%)
+- Very Dark Blue: hsl(209, 33%, 12%) */
